@@ -75,4 +75,4 @@ jobs:
             build/app/outputs/bundle/release/*.aab
           generate_release_notes: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PATH: ${{ secrets.GH_PATH }}
